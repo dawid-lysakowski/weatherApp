@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 15px auto;
+    text-align: center;
+    font-family: Arial;
+    background-color: #ccc;
+}
+h1, #check {
+    margin-bottom: 10px;
+}
+#city {
+    padding: 5px;
+}
+#check {
+    padding: 5px 15px;
+}
+.block {
+    display: inline-flex;
+    align-items: flex-start;
+    text-align: left;
+    width: 240px;
+    min-height: 150px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px;
+}
+.block div {
+    padding: 10px 0 7px 10px;
+}
+.block img {
+    width: 100px;
+    height: 100px;
+}
+.block:first-of-type {
+    width: 490px;
+    justify-content: space-between;
+}
+.block:first-of-type div {
+    width: 140px;
+}
